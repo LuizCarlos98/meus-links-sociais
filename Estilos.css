@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url(font/coolvetica\ rg.otf);
+}
+
+/*reset*/
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+:root {
+  --font-comum: 'Nabla', cursive;
+  --font-baixada: 'Coolvetica';
+  --cor-body: #262626;
+  --cor-link: #332D2D;
+}
+
+body {
+  background-image: linear-gradient(to top, #035AA6, #0367A6);
+  width: 100%;
+}
+
+header img {
+  height: 180px;
+  width: 180px;
+  border-radius: 140px 140px 140px 140px;
+  justify-content: center;
+  box-shadow: 1px 3px 5px 1px rgb(0 0 0 / 45%);
+
+}
+
+header>#foto-perfil {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+header>h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.5rem;
+
+  font-style: italic;
+
+}
+
+header>h2 {
+  font-family: 'Nabla', cursive;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.2rem;
+
+  font-style: italic;
+
+
+}
+
+section {
+  padding-top: 2em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  width: 100%;
+}
+
+section>.links-externos {
+  background-color: rgba(235, 232, 232, 0.356);
+  padding: 15px;
+  margin: 10px;
+  padding-left: 180px;
+  padding-right: 180px;
+  min-width: 300px;
+  max-width: 800px;
+  border-radius: 5px;
+  box-shadow: 1px 3px 0px 0px rgba(0, 0, 0, 0.26);
+}
+
+.links-externos>a {
+  color: #000000ea;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+
+}
+
+.links-externos:hover {
+  background-color: #064881;
+  cursor: pointer;
+  text-decoration: underline;
+
+}
+
+.links-externos:active {
+  background-color: #949193;
+}
+
+.links-externos img {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+
+}
+
+footer {
+  text-align: center;
+  height: 65px;
+  width: 100%;
+  padding-top: 5px;
+}
+
+span {
+
+  padding-bottom: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18;
+}
+
+p {
+  padding-top: 7px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18;
+}
