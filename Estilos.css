@@ -51,7 +51,7 @@ header>h1 {
 }
 
 header>h2 {
-  font-family: 'Nabla', cursive;
+  font-family: 'Nabla';
   text-align: center;
   color: #ffffff;
   font-size: 1.2rem;
@@ -111,9 +111,8 @@ section>.links-externos {
 
 footer {
   text-align: center;
-  height: 65px;
-  width: 100%;
-  padding-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 span {
