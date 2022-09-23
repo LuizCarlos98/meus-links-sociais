@@ -22,8 +22,7 @@
 
 body {
   background-image: linear-gradient(to top, #035AA6, #0367A6);
-  min-height: 300px;
-  max-height: 800px;
+  height: 100%;
   margin: auto;
 }
 
