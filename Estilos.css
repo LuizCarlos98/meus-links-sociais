@@ -22,7 +22,9 @@
 
 body {
   background-image: linear-gradient(to top, #035AA6, #0367A6);
-  width: 100%;
+  min-height: 300px;
+  max-height: 800px;
+  margin: auto;
 }
 
 header img {
